@@ -23,7 +23,7 @@ int main(){
   // Third Practice
 
   // Integer (whole numbers)
-  // int age = 21;
+  int age = 21;
   // int year = 2023;
   // int days = 7.5;
 
@@ -55,5 +55,15 @@ int main(){
   // // It shows either 1 or 0 (1 is true, 0 is false)
   // std::cout << student;
 
+  
+  // String (objects that represents sequence of texts)
+  std::string name = "Bro";
+  std::string day = "Friday";
+  std::string food = "Pizza";
+  std::string address = "123 fake St.";
+  
+  std::cout << "Hello " << name << "!" << '\n';
+  std::cout << "You are " << age << " years old.";
+ 
   return 0;
 }
