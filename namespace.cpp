@@ -12,11 +12,16 @@
 //typedef std::vector<std::pair<std::string, int>> pairlist_t // underscore t because it's a typedef and it's a naming convention
 // this is way too much for now let's use something smaller
 
-typedef std::string text_t;
-typedef int number_t;
+// typedef std::string text_t; <---------
+// typedef int number_t; <--------
 
 //************************************************
 
+//Third exercise ****************************************
+using text_t = std::string;
+using number_t = int;
+
+// this is more suitable for templates
 
 
 // first exercise *********************************
@@ -33,11 +38,11 @@ int main() {
 
     //second exercise part ***************
     // we can now use identyfier text_t to represent std::string.
-    text_t firstName = "Bro"; // this string exactly like a variable string
-    number_t age = 21;
+    // text_t firstName = "Bro";// <----------- // this string exactly like a variable string
+    // number_t age = 21;
 
-    std::cout << firstName << '\n';
-    std::cout << age << '\n';
+    // std::cout << firstName << '\n';
+    // std::cout << age << '\n';
 
     //*************************
 
@@ -45,6 +50,13 @@ int main() {
     //             in large projects. Each entity needs a unique name.
     //             A namespace allows for identically named entities
     //             as long as the namespaces are different.
+
+    // Typedef = reserved keyword used to create an additional name
+    //           (alias) for another data type.
+    //           New identifier for an existing type
+    //           Helps with readability and reduces typos 
+    //           Use when there is a clear benefit
+    //           Replaced with 'using' (work better w/ templates)
 
     //first exercise*************************************************** 
 
