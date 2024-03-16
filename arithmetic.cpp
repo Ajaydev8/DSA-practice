@@ -6,7 +6,7 @@ int main()
     //arithmetic operators = return the result of a specific
     //                       arithmetic operation (+ - * /)
 
-    int students = 20;
+    // int students = 20;
 
     //first exercise (plus)****************************************
 
@@ -44,13 +44,25 @@ int main()
 
     //Fifth exercise***********************
 
-    int remainder = students % 3;
+    // int remainder = students % 3;
     // using the modulus operator is best way to find
     // out if the number is even or odd.
 
-    std::cout << remainder;
+    // std::cout << remainder;
     
     //***********************************
+
+    //Sixth exercise(Rules of arithmetic in c++)***********************
+
+    //Below is preference order of cpp
+
+    //parenthesis
+    //multiplication & division
+    //addition & substraction
+
+    int students = 6 - (5 + 4) * 3 / 2;
+
+    std::cout << students;
 
     return 0;
 }
