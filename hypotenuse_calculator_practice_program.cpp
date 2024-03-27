@@ -6,7 +6,7 @@ int main()
     double a;
 
     std::cout << "Enter side A: ";
-    std::cin >> a; // this is where a will be stored
+    std::cin >> a; //this is where a value will be stored
 
     double b;
 
